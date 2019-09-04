@@ -1,6 +1,6 @@
 # understanding_assembler_language
 
-compiler: _gcc_;
-processor: _1.3 GHz Intel Core i5_;
-os: _macOS Sierra_;
-notation: _AT&T_.
+- compiler: __gcc__;
+- processor: __1.3 GHz Intel Core i5__;
+- os: __macOS Sierra__;
+- notation: __AT&T__.
