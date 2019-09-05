@@ -12,12 +12,12 @@ _add:
         movl    -8(%rbp), %eax
         addl    %edx, %eax
         movl    %eax, _res(%rip)
-        nop
+        # nop
         popq    %rbp
         ret
 _get_result:
-        pushq   %rbp
-        movq    %rsp, %rbp
+        # pushq   %rbp
+        # movq    %rsp, %rbp
         movl    _res(%rip), %eax
-        popq    %rbp
+        # popq    %rbp
         ret
